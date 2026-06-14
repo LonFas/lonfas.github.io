@@ -38,8 +38,9 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 'latest'
-          extended: true # Включаем extended версию для тем
+          hugo-version: '0.163.1'
+          extended: true
+          dart-sass-version: '1.101.0'
 
       - name: Build with Hugo
         env:
