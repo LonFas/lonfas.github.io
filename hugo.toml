@@ -1,4 +1,16 @@
 baseURL = 'https://lonfas.org/'
 locale = 'en-us'
-title = 'My test hugo site'
-theme = "PaperMod"
+# title = 'LonFas'
+theme = 'blowfish'
+
+[[menu.main]]
+    name = "home"
+    url = "/"
+    weight = 10
+
+[[menu.main]]
+    name = "posts"
+    url = "/posts/"
+    weight = 20
+
+[params]
