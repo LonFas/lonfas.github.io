@@ -1,16 +1,75 @@
 baseURL = 'https://lonfas.org/'
-locale = 'en-us'
-# title = 'LonFas'
 theme = 'blowfish'
 
+defaultContentLanguage = 'en'
+
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
+
 [[menu.main]]
-    name = "home"
+    name = "Main"
     url = "/"
     weight = 10
 
 [[menu.main]]
-    name = "posts"
+    name = "Posts"
     url = "/posts/"
     weight = 20
 
+# GLOBAL SETTINGS
 [params]
+    colorScheme = "blowfish"
+    defaultTheme = "dark"
+
+[params.homepage]
+    layout = "profile"
+
+[params.author]
+    name = "Dzhuriy Dmitry"
+	headline = "Digital hub, occasional tech thoughts, and alternative communication channels."
+
+[languages.en]
+    locale = 'en-us'
+    label = 'English'
+ 
+    [[languages.en.params.author.links]]
+        github = "https://github.com/lonfas"
+
+    [[languages.en.params.author.links]]
+        gitlab = "https://gitlab.com/lonfas"
+
+    [[languages.en.params.author.links]]
+        twitter = "https://x.com/lonfas"
+
+    [[languages.en.params.author.links]]
+        telegram = "https://t.me/lonfas"
+
+    [[languages.en.params.author.links]]
+        facebook = "https://facebook.com/lonfas"
+
+     [[languages.en.params.author.links]]
+        linkedin = "https://linkedin.com/in/lonfas"
+
+    [[languages.en.params.author.links]]
+        mastodon = "https://mastodon.social/@lonfas"
+
+    [[languages.en.params.author.links]]
+        steam = "https://steamcommunity.com/id/LonFas"
+
+    [[languages.en.params.author.links]]
+        instagram = "https://instagram.com/lonfas"
+
+    [[languages.en.params.author.links]]
+        habr = "https://habr.com/ru/users/lonfas/"
+
+    [[languages.en.params.author.links]]
+        scrobbler = "https://lonfas.rapide.fi/"
+
+    [[languages.en.params.author.links]]
+        email = "mailto:lonfas+site@lonfas.org"
+
+    [[languages.en.params.author.links]]
+		youtube = "https://youtube.com/@lonfas"
+
+#     [[languages.en.params.author.links]]
+#         vk = "https://vk.com/lonfas"
