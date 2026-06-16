@@ -63,7 +63,7 @@ defaultContentLanguage = 'en'
         habr = "https://habr.com/ru/users/lonfas/"
 
     [[languages.en.params.author.links]]
-        scrobbler = "https://lonfas.rapide.fi/"
+        scrobbler = "https://scrobbler.lonfas.org"
 
     [[languages.en.params.author.links]]
         email = "mailto:lonfas+site@lonfas.org"
