@@ -1,5 +1,5 @@
 ---
-title: "Keet"
+title: "Keet contact"
 date: 2026-06-14T15:45:00+02:00
 draft: false
 description: "Private communication via Keet"
